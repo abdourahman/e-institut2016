@@ -1,3 +1,7 @@
+tuto_gestion_video_conf:
+    resource: "@tutoGestionVideoConfBundle/Resources/config/routing.yml"
+    prefix:   /
+
 tuto_gestion_audio_conf:
     resource: "@tutoGestionAudioConfBundle/Resources/config/routing.yml"
     prefix:   /

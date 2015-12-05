@@ -1,0 +1,3 @@
+tuto_gestion_video_conf_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: tutoGestionVideoConfBundle:Default:index }

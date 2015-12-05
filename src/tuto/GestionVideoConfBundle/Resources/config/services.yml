@@ -1,0 +1,4 @@
+services:
+#    tuto_gestion_video_conf.example:
+#        class: tuto\GestionVideoConfBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

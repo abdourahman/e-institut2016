@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new pedagogique\GestionMaterielBundle\pedagogiqueGestionMaterielBundle(),
             new pedagogique\GestionAdminBundle\pedagogiqueGestionAdminBundle(),
             new tuto\GestionAudioConfBundle\tutoGestionAudioConfBundle(),
+            new tuto\GestionVideoConfBundle\tutoGestionVideoConfBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
