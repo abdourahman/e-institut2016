@@ -1,0 +1,24 @@
+tuto_gestion_audio_conf:
+    resource: "@tutoGestionAudioConfBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pedagogique_gestion_admin:
+    resource: "@pedagogiqueGestionAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pedagogique_gestion_materiel:
+    resource: "@pedagogiqueGestionMaterielBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pedagogique_gestion_classe:
+    resource: "@pedagogiqueGestionClasseBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pedagogique_gestion_absense:
+    resource: "@pedagogiqueGestionAbsenseBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pedagogique_gestion_note:
+    resource: "@pedagogiqueGestionNoteBundle/Resources/config/routing.yml"
+    prefix:   /
+

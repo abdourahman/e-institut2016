@@ -1,0 +1,4 @@
+services:
+#    pedagogique_gestion_absense.example:
+#        class: pedagogique\GestionAbsenseBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -16,6 +16,12 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+            new pedagogique\GestionNoteBundle\pedagogiqueGestionNoteBundle(),
+            new pedagogique\GestionAbsenseBundle\pedagogiqueGestionAbsenseBundle(),
+            new pedagogique\GestionClasseBundle\pedagogiqueGestionClasseBundle(),
+            new pedagogique\GestionMaterielBundle\pedagogiqueGestionMaterielBundle(),
+            new pedagogique\GestionAdminBundle\pedagogiqueGestionAdminBundle(),
+            new tuto\GestionAudioConfBundle\tutoGestionAudioConfBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
